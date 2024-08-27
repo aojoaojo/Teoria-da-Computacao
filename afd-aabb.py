@@ -40,7 +40,7 @@ def estado4(indice_letra, palavra):
         return estado1(indice_letra+1, palavra)
 
 def main():
-    palavra = input('Insira uma palavra do alfaberto {a, b}: ')
+    palavra = input('Insira uma palavra do alfabeto {a, b}: ')
     estado1(0, palavra)
 
 if __name__ == '__main__':
