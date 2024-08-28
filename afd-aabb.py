@@ -17,7 +17,6 @@ def estado2(indice_letra, palavra):
         return estado3(indice_letra+1, palavra)
     elif palavra[indice_letra] == 'a':
         return estado1(indice_letra+1, palavra)
-
     
 def estado3(indice_letra, palavra):
     print('Estado 3')
